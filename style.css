@@ -1,0 +1,96 @@
+body{
+    text-align: center;
+    background: linear-gradient(to top,rgb(236, 255, 192),rgb(255, 255, 255),rgb(179, 224, 111));
+}
+
+.header{
+    padding: 10px;
+    background: linear-gradient(90deg,rgb(242, 255, 192),rgb(255, 255, 255),rgb(254, 255, 192));
+}
+
+.header h1{
+    color: rgb(166, 216, 112);
+}
+
+#nav ul li{
+    display: inline;
+    background-color: rgb(178, 216, 112);
+    border-radius: 25px;
+    margin: 5px;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 5px;
+}
+
+#nav ul li:hover{
+    background-color: white;
+}
+
+#nav ul li a:hover{
+    color: rgb(183, 216, 112);
+}
+
+hr{
+    border: 2px solid rgb(225, 255, 182);
+    margin-top: 0%;
+}
+
+#home img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 5px solid rgb(4, 9, 0);
+}
+
+#home img:hover{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 30%;
+}
+
+#home p{
+    word-spacing: 10px;
+}
+
+#portfolio{
+    padding: 10px;
+}
+
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+progress{
+   border: 0;
+   height: 10px;
+   border-radius: 20px;
+}
+
+progress::-webkit-progress-value{
+    border: 0;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgb(14, 27, 1);
+}
+
+progress::-webkit-progress-bar{
+    border: 0;
+    height: 10px;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+.footer{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    color: aliceblue;
+}
